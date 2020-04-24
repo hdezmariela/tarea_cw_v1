@@ -7,10 +7,8 @@ Para ejecutar la tarea, es necesario instalar Python 3.6.8 y las siguientes libr
 3. pandas
 4. pillow
 
-El script que debe ejecutarse primero es **main.py**.
+El script que debe ejecutar es **main.py**. Este se encarga de llamar al resto de scripts.
 
 La tarea puede tardar unos segundos en mostrar algo en pantalla al inicio, debido a que siempre genera un archivo .png que es relativamente pesado.
 
-Cuando la tarea solicita la información básica de los participantes, es obligatorio indicar el tipo de experimento ('a' o 'b', sin comillas). De lo contrario, la tarea no se ejecutará.
-
- 
+Cuando la tarea solicita la información básica de los participantes al principio, es obligatorio indicar el tipo de experimento ('a' o 'b', sin comillas). De lo contrario, la tarea no se ejecutará. 
