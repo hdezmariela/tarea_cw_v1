@@ -3,6 +3,8 @@ import pygame
 from part_info import collect_part_info
 from instructions import present_instructions
 from trials import run_trials
+
+# This will generate a new gamut
 from constants_helpers import *
 
 # Collect participant info
