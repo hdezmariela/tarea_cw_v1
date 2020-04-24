@@ -5,7 +5,7 @@ from instructions import present_instructions
 from trials import run_trials
 
 # This will generate a new gamut
-from constants_helpers import *
+from constants_and_helpers import *
 
 # Collect participant info
 part_info, part_results_file = collect_part_info()
