@@ -1,0 +1,12 @@
+0.0;Presione clic en el mouse para continuar.
+0.1;A continuación se presentarán las instrucciones.
+1.0;En primer lugar, se presentará una cruz que deberá ver fijamente cada vez que aparezca.
+2.0;Después se mostrarán 6 discos con diferentes colores.
+3.0;Luego se mostrará una flecha que cambiará de dirección 4 veces.
+3.1;Usted deberá pensar en cada uno de los discos a los que apunte la flecha.
+4.0;Finalmente, deberá clicar sobre el color que es idéntico al del disco indicado por el círculo blanco.
+5.0;La flecha no dará información sobre la localización del disco por el que se le preguntará.
+5.1;Aunque la flecha no dé pistas sobre el disco por el que se le preguntará, recuerde que
+5.2;el objetivo de esta prueba es pensar, uno a la vez, en los 4 discos señalados por la flecha.
+6.0;¿Comprendió las instrucciones? Presione S para iniciar el experimento o N para repetir las instrucciones.
+7.0;Presione clic en el mouse para volver a leer las instrucciones.

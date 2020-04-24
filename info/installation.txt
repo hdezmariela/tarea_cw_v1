@@ -1,0 +1,9 @@
+Instalar Python 3.6.8
+
+pip install colormath
+
+pip install pandas
+
+pip install pygame
+
+pip install pillow
