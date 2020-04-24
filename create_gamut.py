@@ -3,6 +3,7 @@ import math
 from colormath.color_conversions import convert_color
 from colormath.color_objects import HSLColor, AdobeRGBColor
 
+# This function will be called at the beggining of each session
 def create_gamut(HEIGHT):
 
 	s = 1
