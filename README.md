@@ -1,10 +1,8 @@
-# Tarea experimental de ruedad de colores
+# Tarea experimental de la rueda de colores
 
-Para ejecutar la tarea, es necesario instalar lo siguiente:
+Para ejecutar la tarea, es necesario instalar Python 3.6.8 y las siguientes librerías:
 
-Python 3.6.8
-
-colormath
-pygame
-pandas
-pillow
+1. colormath
+2. pygame
+3. pandas
+4. pillow
