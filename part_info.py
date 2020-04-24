@@ -29,23 +29,23 @@ def collect_part_info():
 				elif evt.key == pygame.K_RETURN:
 					if counter == 0:
 						part_info['name'] = user_input
-						if part_info['name'] == "": sys.exit(); pygame.quit()
+						# if part_info['name'] == "": sys.exit(); pygame.quit()
 					if counter == 1:
 						part_info['par_id'] = str(user_input)
-						if len(part_info['par_id']) != 3: sys.exit(); pygame.quit()
-						try: int(part_info['par_id']) 
-						except ValueError: sys.exit(); pygame.quit()
+						# if len(part_info['par_id']) != 3: sys.exit(); pygame.quit()
+						# try: int(part_info['par_id']) 
+						# except ValueError: sys.exit(); pygame.quit()
 					if counter == 2:
 						part_info['sex'] = user_input
-						if part_info['sex'] not in ["masculino", "femenino"]: sys.exit(); pygame.quit()
+						# if part_info['sex'] not in ["masculino", "femenino"]: sys.exit(); pygame.quit()
 					if counter == 3:
 						part_info['age'] = user_input
-						try: int(part_info['age']) 
-						except ValueError: sys.exit(); pygame.quit()
-						if int(part_info['age']) not in list(range(18, 60)): sys.exit(); pygame.quit()
+						# try: int(part_info['age']) 
+						# except ValueError: sys.exit(); pygame.quit()
+						# if int(part_info['age']) not in list(range(18, 60)): sys.exit(); pygame.quit()
 					if counter == 4:
 						part_info['session'] = user_input
-						if part_info['session'] not in ["1", "2"]: sys.exit(); pygame.quit()
+						# if part_info['session'] not in ["1", "2"]: sys.exit(); pygame.quit()
 					if counter == 5:
 						part_info['exp_type'] = user_input
 						if part_info['exp_type'] not in ["a", "b"]: sys.exit(); pygame.quit()
